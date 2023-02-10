@@ -1,0 +1,21 @@
+/* CLEAR */
+body{
+    margin: 0;
+    background-color: #f9f9f9;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/* STYLES */
+.header{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navigation{
+    display: flex;
+}
