@@ -32,14 +32,16 @@
         <section class="product-section">
             <div class="product-section-content">
                 <div class="product-images">
-                    <div class="product-images-main">
-                        <img src="./imgs/img_avatar.png" alt="main product image">
-                    </div>
-                    <div class="product-images-images">
-                        <img src="./imgs/img_avatar.png" alt="product image option 1">
-                        <img src="./imgs/img_avatar.png" alt="product image option 2">
-                        <img src="./imgs/img_avatar.png" alt="product image option 3">
-                        <img src="./imgs/img_avatar.png" alt="product image option 4">
+                    <div class="product-images-content">
+                        <div class="product-images-main">
+                            <img src="./imgs/img_avatar.png" alt="main product image">
+                        </div>
+                        <div class="product-images-images">
+                            <img class="product-image-base selected" src="./imgs/img_avatar.png" alt="product image option 1">
+                            <img class="product-image-base" src="./imgs/img_avatar.png" alt="product image option 2">
+                            <img class="product-image-base" src="./imgs/img_avatar.png" alt="product image option 3">
+                            <img class="product-image-base" src="./imgs/img_avatar.png" alt="product image option 4">
+                        </div>
                     </div>
                 </div>
                 <div class="product-info">
@@ -47,7 +49,11 @@
                     <h3>Fall Limited Edition Sneakers</h3>
                     <p class="product-info-description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
                     <div class="product-price">
-                        <p class="product-off-price">$125.00<span class="product-price-off">50%</span></p>
+                        <div class="product-off-price">
+                            <p>
+                                $125.00<sup class="product-price-off">50%</sup>
+                            </p>
+                        </div>
                         <p class="product-old-price">$250.00</p>
                     </div>
                     <div class="product-form">
@@ -62,5 +68,6 @@
                 </div>
             </div>
         </section>
+        <script src="./js/main.js"></script>
     </body>
 </html>
